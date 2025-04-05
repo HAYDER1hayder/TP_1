@@ -28,6 +28,6 @@ public class Etudiant extends Personne{
 
     @Override
     public String toString() {
-        return "Je suis " + prenom.toUpperCase() + " " + nom + " mon MAT est: " + mat ;
+        return "Je suis " + prenom.toUpperCase() + " " + nom +" mon MAT est: " + mat ;
     }
 }
