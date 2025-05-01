@@ -2,8 +2,8 @@ package dz.univeloued.tps.Apps;// Create a package
 import dz.univeloued.tps.classes.*;// Package recall 
 public class Application {
     public static void main(String[] args){
-        Employe emp1 = new Employe(1,"dou","Rachid",10000.0);// New Object _ Constructor avec parameters 
-        Employe emp2 = new Employe(2,"farh","Djamel", 10000.0);// New Object _ Constructor avec parameters
+        Employe emp1 = new Employe(1,"Haider","Messaoudi",10000.0);// New Object _ Constructor avec parameters 
+        Employe emp2 = new Employe(2,"Haider","Messaoudi", 10000.0);// New Object _ Constructor avec parameters
 
         Etudiant e1 = new Etudiant(3, "obaka"," Med", "65678754","Informatique");// New Object _ Constructor avec parameters
         Etudiant e2 = new Etudiant(4, "khalfi"," KHALFI", "87543543","Maths");// New Object _ Constructor avec parameters
