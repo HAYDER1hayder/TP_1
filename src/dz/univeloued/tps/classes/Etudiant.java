@@ -5,6 +5,7 @@ public class Etudiant extends Personne{
     public String domain;
 
     public Etudiant(int id, String prenom ,String nom, String mat, String domain) {
+        //Constructors avec parameter inheritance Book
         super(id, nom, prenom);
         this.mat = mat;
         this.domain = domain;
@@ -26,7 +27,7 @@ public class Etudiant extends Personne{
         this.domain = domain;
     }
 
-    @Override
+    //Override
     public String toString() {
         return "Je suis " + prenom.toUpperCase() + " " + nom +" mon MAT est: " + mat ;
     }
